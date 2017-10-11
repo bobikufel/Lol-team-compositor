@@ -17,8 +17,8 @@ namespace LOL_team_compositor
         public bool Jungle { get; private set; }
         public bool Midlane { get; private set; }
         public bool Marksman { get; private set; }
-        public bool Support { get; private set; }        
-
+        public bool Support { get; private set; }
+        public bool zajety=false;
         public Champion(int id, string name, System.Drawing.Bitmap img, bool toplane, bool jungle, bool midlane, bool marksman, bool support)
         {
             Id = id;

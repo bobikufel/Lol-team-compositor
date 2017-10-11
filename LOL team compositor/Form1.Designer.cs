@@ -35,7 +35,6 @@
             this.Adc = new System.Windows.Forms.PictureBox();
             this.Sup = new System.Windows.Forms.PictureBox();
             this.Reroll = new System.Windows.Forms.Button();
-            this.Test = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Top)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Mid)).BeginInit();
@@ -73,6 +72,7 @@
             this.Mid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Mid.TabIndex = 2;
             this.Mid.TabStop = false;
+            this.Mid.Click += new System.EventHandler(this.Mid_Click);
             // 
             // Jng
             // 
@@ -83,6 +83,7 @@
             this.Jng.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Jng.TabIndex = 3;
             this.Jng.TabStop = false;
+            this.Jng.Click += new System.EventHandler(this.Jng_Click);
             // 
             // Adc
             // 
@@ -93,6 +94,7 @@
             this.Adc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Adc.TabIndex = 4;
             this.Adc.TabStop = false;
+            this.Adc.Click += new System.EventHandler(this.Adc_Click);
             // 
             // Sup
             // 
@@ -103,6 +105,7 @@
             this.Sup.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Sup.TabIndex = 5;
             this.Sup.TabStop = false;
+            this.Sup.Click += new System.EventHandler(this.Sup_Click);
             // 
             // Reroll
             // 
@@ -115,20 +118,11 @@
             this.Reroll.UseVisualStyleBackColor = true;
             this.Reroll.Click += new System.EventHandler(this.Reroll_Click);
             // 
-            // Test
-            // 
-            this.Test.Location = new System.Drawing.Point(305, 51);
-            this.Test.Multiline = true;
-            this.Test.Name = "Test";
-            this.Test.Size = new System.Drawing.Size(193, 92);
-            this.Test.TabIndex = 7;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(536, 538);
-            this.Controls.Add(this.Test);
             this.Controls.Add(this.Reroll);
             this.Controls.Add(this.Sup);
             this.Controls.Add(this.Adc);
@@ -148,7 +142,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Adc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Sup)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -161,7 +154,6 @@
         private System.Windows.Forms.PictureBox Adc;
         private System.Windows.Forms.PictureBox Sup;
         private System.Windows.Forms.Button Reroll;
-        private System.Windows.Forms.TextBox Test;
     }
 }
 
