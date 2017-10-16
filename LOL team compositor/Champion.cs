@@ -11,7 +11,6 @@ namespace LOL_team_compositor
     {
         public int Id { get; private set; }
         public string Name { get; private set; }
-        // public  Img { get; private set; }
         public System.Drawing.Bitmap Img { get; private set; }
         public bool Toplane { get; private set; }
         public bool Jungle { get; private set; }
@@ -19,9 +18,8 @@ namespace LOL_team_compositor
         public bool Marksman { get; private set; }
         public bool Support { get; private set; }
         public bool zajety=false;
-        public Champion(int id, string name, System.Drawing.Bitmap img, bool toplane, bool jungle, bool midlane, bool marksman, bool support)
-        {
-            Id = id;
+        public Champion(string name, System.Drawing.Bitmap img, bool toplane, bool jungle, bool midlane, bool marksman, bool support)
+        {            
             Name = name;
             Img = img;
             Toplane = toplane;

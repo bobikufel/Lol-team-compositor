@@ -63,6 +63,16 @@ namespace LOL_team_compositor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_empty {
+            get {
+                object obj = ResourceManager.GetObject("1 empty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Aatrox {
             get {
                 object obj = ResourceManager.GetObject("Aatrox", resourceCulture);
@@ -316,6 +326,16 @@ namespace LOL_team_compositor.Properties {
         internal static System.Drawing.Bitmap Evelynn {
             get {
                 object obj = ResourceManager.GetObject("Evelynn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Evelynn2 {
+            get {
+                object obj = ResourceManager.GetObject("Evelynn2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
